@@ -1,0 +1,265 @@
+Index: movies/models.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from django.db import models\n\n\n# Create your models here.\n\n# Gendre\nclass Gender(models.Model):\n    gender_description = models.CharField(max_length=10, verbose_name=\"Φύλο\")\n\n    def __str__(self):\n        return self.gender_description\n\n    class Meta:\n        db_table=\"gender\"\n        verbose_name = \"Φύλο\"\n        verbose_name_plural = \"Φύλα\"\n        ordering = [\"gender_description\"]\n\nclass Genre(models.Model):\n    genre_description = models.CharField(max_length=100, verbose_name=\"Είδος Ταινίας\")\n\n    def __str__(self):\n        return self.genre_description\n\n    class Meta:\n        db_table=\"genre\"\n        verbose_name = \"Είδος ταινίας\"\n        verbose_name_plural = \"Είδη ταινιών\"\n        ordering = [\"genre_description\"]\n\n\nclass Company(models.Model):\n        company_description = models.CharField(max_length=100, verbose_name=\"Εταιρία Παραγωνής\")\n\n        def __str__(self):\n            return self.company_description\n\n        class Meta:\n            db_table = \"company\"\n            verbose_name = \"Εταιρία Παραγωγής\"\n            verbose_name_plural = \"Εταιρίες Παραγωγής\"\n            ordering = [\"company_description\"]\n\n\nclass Director(models.Model):\n    director_firstName = models.CharField(max_length=100, verbose_name=\"Όνομα Σκηνοθέτη\")\n    director_lastName = models.CharField(max_length=100, verbose_name=\"Επώνυμο Σκηνοθέτη\")\n    director_dateOfBirth = models.DateField(verbose_name=\"Ημερομηνία γέννησης\", null=True)\n    director_placeOfBirth = models.CharField(max_length=30,verbose_name=\"Τόπος Γέννησης\", null=True)\n    director_gender = models.ForeignKey(Gender, on_delete=models.PROTECT,verbose_name='Φύλο')\n    director_bio = models.TextField(verbose_name=\"Βιογραφικό/Πληροφορίες\", null=True)\n    image = models.ImageField(null=True, verbose_name=\"Φώτο Σκηνοθέτη\")\n\n    def __str__(self):\n        return \"{0} ({1} {2})\".format(self.director_lastName,self.director_firstName,self.director_gender)\n\n    class Meta:\n       db_table = \"director\"\n       verbose_name = \"Σκηνοθέτης\"\n       verbose_name_plural=\"Σκηνοθέτες\"\n       ordering = [\"director_lastName\"]\n\nclass Actor(models.Model):\n    actor_firstName = models.CharField(max_length=100, verbose_name=\"Όνομα Ηθοποιού\")\n    actor_lastName = models.CharField(max_length=100, verbose_name=\"Επώνυμο Ηθοποιού\")\n    actor_dateOfBirth = models.DateField(verbose_name=\"Ημερομηνία γέννησης\", null=True)\n    actor_placeOfBirth = models.CharField(max_length=30,verbose_name=\"Τόπος Γέννησης\", null=True)\n    actor_gender = models.ForeignKey(Gender, on_delete=models.PROTECT,verbose_name='Φύλο')\n    actor_bio = models.TextField(verbose_name=\"Βιογραφικό/Πληροφορίες\", null=True)\n\n    def __str__(self):\n        return \"{0} ({1} {2})\".format(self.actor_lastName,self.actor_firstName, self.actor_gender)\n\n    class Meta:\n        db_table = \"actor\"\n        verbose_name = \"Ηθοποιός\"\n        verbose_name_plural=\"Ηθοποιοί\"\n        ordering = [\"actor_lastName\"]\n\nclass Movie(models.Model):\n    title = models.CharField(max_length=100,verbose_name=\"Τίτλος ταινίας\")\n    duration = models.IntegerField(null=True, verbose_name=\"Διάρκεια\")\n    genre = models.ForeignKey(Genre,on_delete=models.PROTECT,verbose_name='Είδος')\n    language=models.CharField(max_length=20,verbose_name=\"Γλώσσα\",null=True)\n    premiere_date = models.DateField(verbose_name=\"Ημερομηνία Πρεμίερας\", null=True)\n    url_imbd = models.CharField(max_length=300, verbose_name=\"Σύνδεσμος_IMBD\")\n    image = models.ImageField(null=True,verbose_name=\"Εξώφυλλο\",)\n    imdb_rate = models.FloatField(verbose_name=\"Βαθμολογία_IMBD\", null=True)\n    plot = models.TextField(verbose_name=\"Πλοκή\")\n    director = models.ForeignKey(Director,on_delete=models.PROTECT,verbose_name=\"Σκηνοθέτης\")\n    actors = models.ManyToManyField(Actor,related_name=\"movies\",verbose_name=\"Ηθοποιοί\")\n    critics = models.TextField(verbose_name=\"Κριτικές\")\n    trailer = models.CharField(max_length=300,verbose_name=\"Trailer\")\n    company=models.ForeignKey(Company,on_delete=models.PROTECT,verbose_name=\"Εταιρία Παραγωγής\",null=True)\n    created_at = models.DateTimeField(auto_now_add=True, verbose_name=\"Ημερομηνία Δημιουργίας\")\n    updated_at = models.DateTimeField(auto_now=True, verbose_name=\"Ημερομηνία Ενημέρωσης\")\n\n\n    def __str__(self):\n        if self.premiere_date == None:\n            return self.title + \" \" + \"duration:\"+ str(self.duration)\n        else:\n             return self.title + \" \" + \"duration:\" +str(self.duration)+\" \"+ \"Premiere Date:\"+ self.premiere_date.strftime(\"%d/%m/%Y\")\n\n    class Meta:\n        db_table = \"Movie\"\n        verbose_name = \"Ταινία\"\n        verbose_name_plural= \"Ταινίες\"\n        ordering = [\"title\"]\n        \n                
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/movies/models.py b/movies/models.py
+--- a/movies/models.py	(revision 3fccead128bdd3876c3777d5f507ddf86ce85896)
++++ b/movies/models.py	(date 1609870741166)
+@@ -11,11 +11,12 @@
+         return self.gender_description
+ 
+     class Meta:
+-        db_table="gender"
++        db_table = "gender"
+         verbose_name = "Φύλο"
+         verbose_name_plural = "Φύλα"
+         ordering = ["gender_description"]
+ 
++
+ class Genre(models.Model):
+     genre_description = models.CharField(max_length=100, verbose_name="Είδος Ταινίας")
+ 
+@@ -23,89 +24,89 @@
+         return self.genre_description
+ 
+     class Meta:
+-        db_table="genre"
++        db_table = "genre"
+         verbose_name = "Είδος ταινίας"
+         verbose_name_plural = "Είδη ταινιών"
+         ordering = ["genre_description"]
+ 
+ 
+ class Company(models.Model):
+-        company_description = models.CharField(max_length=100, verbose_name="Εταιρία Παραγωνής")
++    company_description = models.CharField(max_length=100, verbose_name="Εταιρία Παραγωνής")
+ 
+-        def __str__(self):
+-            return self.company_description
++    def __str__(self):
++        return self.company_description
+ 
+-        class Meta:
+-            db_table = "company"
+-            verbose_name = "Εταιρία Παραγωγής"
+-            verbose_name_plural = "Εταιρίες Παραγωγής"
+-            ordering = ["company_description"]
++    class Meta:
++        db_table = "company"
++        verbose_name = "Εταιρία Παραγωγής"
++        verbose_name_plural = "Εταιρίες Παραγωγής"
++        ordering = ["company_description"]
+ 
+ 
+ class Director(models.Model):
+     director_firstName = models.CharField(max_length=100, verbose_name="Όνομα Σκηνοθέτη")
+     director_lastName = models.CharField(max_length=100, verbose_name="Επώνυμο Σκηνοθέτη")
+     director_dateOfBirth = models.DateField(verbose_name="Ημερομηνία γέννησης", null=True)
+-    director_placeOfBirth = models.CharField(max_length=30,verbose_name="Τόπος Γέννησης", null=True)
+-    director_gender = models.ForeignKey(Gender, on_delete=models.PROTECT,verbose_name='Φύλο')
++    director_placeOfBirth = models.CharField(max_length=30, verbose_name="Τόπος Γέννησης", null=True)
++    director_gender = models.ForeignKey(Gender, on_delete=models.PROTECT, verbose_name='Φύλο')
+     director_bio = models.TextField(verbose_name="Βιογραφικό/Πληροφορίες", null=True)
+     image = models.ImageField(null=True, verbose_name="Φώτο Σκηνοθέτη")
+ 
+     def __str__(self):
+-        return "{0} ({1} {2})".format(self.director_lastName,self.director_firstName,self.director_gender)
++        return "{0} ({1} {2})".format(self.director_lastName, self.director_firstName, self.director_gender)
+ 
+     class Meta:
+-       db_table = "director"
+-       verbose_name = "Σκηνοθέτης"
+-       verbose_name_plural="Σκηνοθέτες"
+-       ordering = ["director_lastName"]
++        db_table = "director"
++        verbose_name = "Σκηνοθέτης"
++        verbose_name_plural = "Σκηνοθέτες"
++        ordering = ["director_lastName"]
+ 
++
+ class Actor(models.Model):
+     actor_firstName = models.CharField(max_length=100, verbose_name="Όνομα Ηθοποιού")
+     actor_lastName = models.CharField(max_length=100, verbose_name="Επώνυμο Ηθοποιού")
+     actor_dateOfBirth = models.DateField(verbose_name="Ημερομηνία γέννησης", null=True)
+-    actor_placeOfBirth = models.CharField(max_length=30,verbose_name="Τόπος Γέννησης", null=True)
+-    actor_gender = models.ForeignKey(Gender, on_delete=models.PROTECT,verbose_name='Φύλο')
++    actor_placeOfBirth = models.CharField(max_length=30, verbose_name="Τόπος Γέννησης", null=True)
++    actor_gender = models.ForeignKey(Gender, on_delete=models.PROTECT, verbose_name='Φύλο')
+     actor_bio = models.TextField(verbose_name="Βιογραφικό/Πληροφορίες", null=True)
+ 
+     def __str__(self):
+-        return "{0} ({1} {2})".format(self.actor_lastName,self.actor_firstName, self.actor_gender)
++        return "{0} ({1} {2})".format(self.actor_lastName, self.actor_firstName, self.actor_gender)
+ 
+     class Meta:
+         db_table = "actor"
+         verbose_name = "Ηθοποιός"
+-        verbose_name_plural="Ηθοποιοί"
++        verbose_name_plural = "Ηθοποιοί"
+         ordering = ["actor_lastName"]
+ 
++
+ class Movie(models.Model):
+-    title = models.CharField(max_length=100,verbose_name="Τίτλος ταινίας")
++    title = models.CharField(max_length=100, verbose_name="Τίτλος ταινίας")
+     duration = models.IntegerField(null=True, verbose_name="Διάρκεια")
+-    genre = models.ForeignKey(Genre,on_delete=models.PROTECT,verbose_name='Είδος')
+-    language=models.CharField(max_length=20,verbose_name="Γλώσσα",null=True)
++    genre = models.ForeignKey(Genre, on_delete=models.PROTECT, verbose_name='Είδος')
++    language = models.CharField(max_length=20, verbose_name="Γλώσσα", null=True)
+     premiere_date = models.DateField(verbose_name="Ημερομηνία Πρεμίερας", null=True)
+     url_imbd = models.CharField(max_length=300, verbose_name="Σύνδεσμος_IMBD")
+-    image = models.ImageField(null=True,verbose_name="Εξώφυλλο",)
++    image = models.ImageField(null=True, verbose_name="Εξώφυλλο", )
+     imdb_rate = models.FloatField(verbose_name="Βαθμολογία_IMBD", null=True)
+     plot = models.TextField(verbose_name="Πλοκή")
+-    director = models.ForeignKey(Director,on_delete=models.PROTECT,verbose_name="Σκηνοθέτης")
+-    actors = models.ManyToManyField(Actor,related_name="movies",verbose_name="Ηθοποιοί")
++    director = models.ForeignKey(Director, on_delete=models.PROTECT, verbose_name="Σκηνοθέτης")
++    actors = models.ManyToManyField(Actor, related_name="movies", verbose_name="Ηθοποιοί")
+     critics = models.TextField(verbose_name="Κριτικές")
+-    trailer = models.CharField(max_length=300,verbose_name="Trailer")
+-    company=models.ForeignKey(Company,on_delete=models.PROTECT,verbose_name="Εταιρία Παραγωγής",null=True)
++    trailer = models.CharField(max_length=300, verbose_name="Trailer")
++    company = models.ForeignKey(Company, on_delete=models.PROTECT, verbose_name="Εταιρία Παραγωγής", null=True)
+     created_at = models.DateTimeField(auto_now_add=True, verbose_name="Ημερομηνία Δημιουργίας")
+     updated_at = models.DateTimeField(auto_now=True, verbose_name="Ημερομηνία Ενημέρωσης")
+ 
+-
+     def __str__(self):
+         if self.premiere_date == None:
+-            return self.title + " " + "duration:"+ str(self.duration)
++            return self.title + " " + "duration:" + str(self.duration)
+         else:
+-             return self.title + " " + "duration:" +str(self.duration)+" "+ "Premiere Date:"+ self.premiere_date.strftime("%d/%m/%Y")
++            return self.title + " " + "duration:" + str(
++                self.duration) + " " + "Premiere Date:" + self.premiere_date.strftime("%d/%m/%Y")
+ 
+     class Meta:
+         db_table = "Movie"
+         verbose_name = "Ταινία"
+-        verbose_name_plural= "Ταινίες"
++        verbose_name_plural = "Ταινίες"
+         ordering = ["title"]
+-        
+-                
+\ No newline at end of file
+Index: .idea/moviebest.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"PYTHON_MODULE\" version=\"4\">\n  <component name=\"FacetManager\">\n    <facet type=\"django\" name=\"Django\">\n      <configuration>\n        <option name=\"rootFolder\" value=\"$MODULE_DIR$\" />\n        <option name=\"settingsModule\" value=\"moviebest/settings.py\" />\n        <option name=\"manageScript\" value=\"$MODULE_DIR$/manage.py\" />\n        <option name=\"environment\" value=\"&lt;map/&gt;\" />\n        <option name=\"doNotUseTestRunner\" value=\"false\" />\n        <option name=\"trackFilePattern\" value=\"migrations\" />\n      </configuration>\n    </facet>\n  </component>\n  <component name=\"NewModuleRootManager\">\n    <content url=\"file://$MODULE_DIR$\" />\n    <orderEntry type=\"inheritedJdk\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n  </component>\n  <component name=\"TemplatesService\">\n    <option name=\"TEMPLATE_CONFIGURATION\" value=\"Django\" />\n  </component>\n  <component name=\"TestRunnerService\">\n    <option name=\"PROJECT_TEST_RUNNER\" value=\"Unittests\" />\n  </component>\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/moviebest.iml b/.idea/moviebest.iml
+--- a/.idea/moviebest.iml	(revision 3fccead128bdd3876c3777d5f507ddf86ce85896)
++++ b/.idea/moviebest.iml	(date 1609867090954)
+@@ -14,7 +14,7 @@
+   </component>
+   <component name="NewModuleRootManager">
+     <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="inheritedJdk" />
++    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+   <component name="TemplatesService">
+Index: .idea/runConfigurations/_template__of_Django_server.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/_template__of_Django_server.xml b/.idea/runConfigurations/_template__of_Django_server.xml
+new file mode 100644
+--- /dev/null	(date 1609868901605)
++++ b/.idea/runConfigurations/_template__of_Django_server.xml	(date 1609868901605)
+@@ -0,0 +1,25 @@
++<component name="ProjectRunConfigurationManager">
++  <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
++    <module name="moviebest" />
++    <option name="INTERPRETER_OPTIONS" value="" />
++    <option name="PARENT_ENVS" value="true" />
++    <envs>
++      <env name="PYTHONUNBUFFERED" value="1" />
++    </envs>
++    <option name="SDK_HOME" value="" />
++    <option name="WORKING_DIRECTORY" value="" />
++    <option name="IS_MODULE_SDK" value="true" />
++    <option name="ADD_CONTENT_ROOTS" value="true" />
++    <option name="ADD_SOURCE_ROOTS" value="true" />
++    <option name="launchJavascriptDebuger" value="false" />
++    <option name="port" value="8000" />
++    <option name="host" value="" />
++    <option name="additionalOptions" value="" />
++    <option name="browserUrl" value="http://127.0.0.1:8000/" />
++    <option name="runTestServer" value="false" />
++    <option name="runNoReload" value="false" />
++    <option name="useCustomRunCommand" value="false" />
++    <option name="customRunCommand" value="" />
++    <method v="2" />
++  </configuration>
++</component>
+\ No newline at end of file
+Index: .idea/sqldialects.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sqldialects.xml b/.idea/sqldialects.xml
+new file mode 100644
+--- /dev/null	(date 1609867090962)
++++ b/.idea/sqldialects.xml	(date 1609867090962)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="SqlDialectMappings">
++    <file url="file://$PROJECT_DIR$" dialect="SQLite" />
++    <file url="PROJECT" dialect="SQLite" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/dataSources.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/dataSources.xml b/.idea/dataSources.xml
+new file mode 100644
+--- /dev/null	(date 1609865894646)
++++ b/.idea/dataSources.xml	(date 1609865894646)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
++    <data-source source="LOCAL" name="Django default" uuid="406a93ba-8edb-4e64-8cfa-abca334ad72a">
++      <driver-ref>sqlite.xerial</driver-ref>
++      <synchronize>true</synchronize>
++      <imported>true</imported>
++      <remarks>$PROJECT_DIR$/moviebest/settings.py</remarks>
++      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
++      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
++      <working-dir>$ProjectFileDir$</working-dir>
++    </data-source>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"JavaScriptSettings\">\n    <option name=\"languageLevel\" value=\"ES6\" />\n  </component>\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.7\" project-jdk-type=\"Python SDK\" />\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 3fccead128bdd3876c3777d5f507ddf86ce85896)
++++ b/.idea/misc.xml	(date 1609867090958)
+@@ -3,5 +3,5 @@
+   <component name="JavaScriptSettings">
+     <option name="languageLevel" value="ES6" />
+   </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
