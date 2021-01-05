@@ -67,7 +67,6 @@ class Actor(models.Model):
     actor_placeOfBirth = models.CharField(max_length=30,verbose_name="Τόπος Γέννησης", null=True)
     actor_gender = models.ForeignKey(Gender, on_delete=models.PROTECT,verbose_name='Φύλο')
     actor_bio = models.TextField(verbose_name="Βιογραφικό/Πληροφορίες", null=True)
-    image = models.ImageField(null=True, verbose_name="Φώτο Ηθοποιός")
 
     def __str__(self):
         return "{0} ({1} {2})".format(self.actor_lastName,self.actor_firstName, self.actor_gender)
@@ -99,9 +98,9 @@ class Movie(models.Model):
 
     def __str__(self):
         if self.premiere_date == None:
-            return self.title + "  " + "duration:"+ str(self.duration)
+            return self.title + " " + "duration:"+ str(self.duration)
         else:
-             return self.title + "  " + "duration:" +str(self.duration)+"  "+"genre:" +str(self.genre) +"  "+ "premiere date:"+self.premiere_date.strftime("%d/%m/%Y")
+             return self.title + " " + "duration:" +str(self.duration)+" "+ "Premiere Date:"+ self.premiere_date.strftime("%d/%m/%Y")
 
     class Meta:
         db_table = "Movie"
