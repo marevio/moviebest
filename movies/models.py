@@ -1,6 +1,21 @@
 from django.db import models
 
+
 # Create your models here.
+
+# Gendre
+class Gender(models.Model):
+    gender_description = models.CharField(max_length=10, verbose_name="Φύλο")
+
+    def __str__(self):
+        return self.gender_description
+
+    class Meta:
+        db_table="gender"
+        verbose_name = "Φύλο"
+        verbose_name_plural = "Φύλα"
+        ordering = ["gender_description"]
+
 class Genre(models.Model):
     genre_description = models.CharField(max_length=100, verbose_name="Είδος Ταινίας")
 
@@ -30,10 +45,10 @@ class Company(models.Model):
 class Director(models.Model):
     director_firstName = models.CharField(max_length=100, verbose_name="Όνομα Σκηνοθέτη")
     director_lastName = models.CharField(max_length=100, verbose_name="Επώνυμο Σκηνοθέτη")
-    director_dateOfBirth = models.DateField(verbose_name="Ημερομηνία γέννησης")
-    director_placeOfBirth = models.CharField(max_length=30,verbose_name="Τόπος Γέννησης")
-    director_gender = models.CharField(max_length=20,verbose_name="Γένος",null=True)
-    director_bio = models.TextField(verbose_name="Βιογραφικό/Πληροφορίες")
+    director_dateOfBirth = models.DateField(verbose_name="Ημερομηνία γέννησης", null=True)
+    director_placeOfBirth = models.CharField(max_length=30,verbose_name="Τόπος Γέννησης", null=True)
+    director_gender = models.ForeignKey(Gender, on_delete=models.PROTECT,verbose_name='Φύλο')
+    director_bio = models.TextField(verbose_name="Βιογραφικό/Πληροφορίες", null=True)
     image = models.ImageField(null=True, verbose_name="Φώτο Σκηνοθέτη")
 
     def __str__(self):
@@ -48,10 +63,10 @@ class Director(models.Model):
 class Actor(models.Model):
     actor_firstName = models.CharField(max_length=100, verbose_name="Όνομα Ηθοποιού")
     actor_lastName = models.CharField(max_length=100, verbose_name="Επώνυμο Ηθοποιού")
-    actor_dateOfBirth = models.DateField(verbose_name="Ημερομηνία γέννησης")
-    actor_placeOfBirth = models.CharField(max_length=30,verbose_name="Τόπος Γέννησης")
-    actor_gender = models.CharField(max_length=20,verbose_name="Γένος")
-    actor_bio = models.CharField(max_length=300,verbose_name="Βιογραφικό/Πληροφορίες")
+    actor_dateOfBirth = models.DateField(verbose_name="Ημερομηνία γέννησης", null=True)
+    actor_placeOfBirth = models.CharField(max_length=30,verbose_name="Τόπος Γέννησης", null=True)
+    actor_gender = models.ForeignKey(Gender, on_delete=models.PROTECT,verbose_name='Φύλο')
+    actor_bio = models.TextField(verbose_name="Βιογραφικό/Πληροφορίες", null=True)
 
     def __str__(self):
         return "{0} ({1} {2})".format(self.actor_lastName,self.actor_firstName, self.actor_gender)
@@ -65,17 +80,18 @@ class Actor(models.Model):
 class Movie(models.Model):
     title = models.CharField(max_length=100,verbose_name="Τίτλος ταινίας")
     duration = models.IntegerField(null=True, verbose_name="Διάρκεια")
-    genre = models.ForeignKey(Genre,on_delete=models.CASCADE,verbose_name='Είδος')
-    premiere_date = models.DateField(verbose_name="Ημερομηνία Πρεμίερας")
+    genre = models.ForeignKey(Genre,on_delete=models.PROTECT,verbose_name='Είδος')
+    language=models.CharField(max_length=20,verbose_name="Γλώσσα",null=True)
+    premiere_date = models.DateField(verbose_name="Ημερομηνία Πρεμίερας", null=True)
     url_imbd = models.CharField(max_length=300, verbose_name="Σύνδεσμος_IMBD")
-    image = models.ImageField(null=True,verbose_name="Εξώφυλλο")
-    imdb_rate = models.CharField(max_length=20, verbose_name="Βαθμολογία_IMBD")
+    image = models.ImageField(null=True,verbose_name="Εξώφυλλο",)
+    imdb_rate = models.FloatField(verbose_name="Βαθμολογία_IMBD", null=True)
     plot = models.TextField(verbose_name="Πλοκή")
-    director = models.ForeignKey(Director,on_delete=models.CASCADE,verbose_name="Σκηνοθέτης")
-    actors = models.ForeignKey(Actor,on_delete=models.CASCADE,verbose_name="Ηθοποιοί")
+    director = models.ForeignKey(Director,on_delete=models.PROTECT,verbose_name="Σκηνοθέτης")
+    actors = models.ManyToManyField(Actor,related_name="movies",verbose_name="Ηθοποιοί")
     critics = models.TextField(verbose_name="Κριτικές")
     trailer = models.CharField(max_length=300,verbose_name="Trailer")
-    company=models.ForeignKey(Company,on_delete=models.CASCADE,verbose_name="Εταιρία Παραγωγής",null=True)
+    company=models.ForeignKey(Company,on_delete=models.PROTECT,verbose_name="Εταιρία Παραγωγής",null=True)
     created_at = models.DateTimeField(auto_now_add=True, verbose_name="Ημερομηνία Δημιουργίας")
     updated_at = models.DateTimeField(auto_now=True, verbose_name="Ημερομηνία Ενημέρωσης")
 
@@ -84,7 +100,7 @@ class Movie(models.Model):
         if self.premiere_date == None:
             return self.title + " " + "duration:"+ str(self.duration)
         else:
-             return self.title + " " + "duration:" +str(self.duration)+" "+ "Premiere Date:"+ self.premiere_date.strftime("%d%m%Y")
+             return self.title + " " + "duration:" +str(self.duration)+" "+ "Premiere Date:"+ self.premiere_date.strftime("%d/%m/%Y")
 
     class Meta:
         db_table = "Movie"
