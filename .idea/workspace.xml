@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6fc7db3-1ff5-456e-b8b2-33dda5de7164" name="Default Changelist" comment="added html">
-      <change afterPath="$PROJECT_DIR$/movies/static/css/--mp---Multiple-items-slider-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/MUSA_carousel-product-cart-slider-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/MUSA_carousel-product-cart-slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/best-carousel-slide.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/divider-text-middle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/img/architect-at-the-construction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/img/architects-and-worker.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/img/young-college-students.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/js/--mp---Multiple-items-slider-responsive-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/js/--mp---Multiple-items-slider-responsive.js" afterDir="false" />
+    <list default="true" id="b6fc7db3-1ff5-456e-b8b2-33dda5de7164" name="Default Changelist" comment="added html code">
+      <change afterPath="$PROJECT_DIR$/movies/static/img/hollywood-walk-of-fame.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/img/lena_color.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/img/nik.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/movies/aboutus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviebest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/css/Header-Dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/css/Header-Dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/css/Navbarbuttonsignupsignin-modal-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/css/Navbarbuttonsignupsignin-modal-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/fonts/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/fonts/ionicons.woff" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movies/static/img" />
       <recent name="$PROJECT_DIR$/movies/templates/movies" />
     </key>
   </component>
@@ -140,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609865869605</updated>
       <workItem from="1609865870742" duration="6706000" />
-      <workItem from="1609928235094" duration="3554000" />
+      <workItem from="1609928235094" duration="7298000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>
@@ -163,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609930572576</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added html code">
+      <created>1609962171943</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609962171943</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +197,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="bug fixes&#10;Django==2.2" />
     <MESSAGE value="added html" />
-    <option name="LAST_COMMIT_MESSAGE" value="added html" />
+    <MESSAGE value="added html code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added html code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/moviebest$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1609868482348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

@@ -1,0 +1,8 @@
+#aboutus {
+  background-image: url('../../static/img/hollywood-walk-of-fame.jpg');
+  background-size: cover;
+}
+
+body {
+  background-color: initial;
+}
