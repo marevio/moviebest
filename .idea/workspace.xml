@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6fc7db3-1ff5-456e-b8b2-33dda5de7164" name="Default Changelist" comment="bug fixes&#10;Django==2.2">
-      <change afterPath="$PROJECT_DIR$/movies/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/Footer-Dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/Header---Apple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/Header-Blue--Sticky-Header--Smooth-Scroll.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/Header-Dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/MUSA_navbar-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/MUSA_navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/Navbar-vmnt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/Navbarbuttonsignupsignin-modal-form-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/Navbarbuttonsignupsignin-modal-form-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/Navbarbuttonsignupsignin-modal-form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/dh-header-non-rectangular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/visionae-dashboard-navbar-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/visionae-dashboard-navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/img/Hollywood_Sign_low.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/img/mountain_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/js/Header-Blue--Sticky-Header--Smooth-Scroll-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/js/Header-Blue--Sticky-Header--Smooth-Scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/js/Navbar-vmnt-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/js/Navbar-vmnt-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/js/Navbar-vmnt-3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/js/Navbar-vmnt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/js/Navbarbuttonsignupsignin-modal-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/js/jquery.min.js" afterDir="false" />
+    <list default="true" id="b6fc7db3-1ff5-456e-b8b2-33dda5de7164" name="Default Changelist" comment="added html">
+      <change afterPath="$PROJECT_DIR$/movies/static/css/--mp---Multiple-items-slider-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/css/MUSA_carousel-product-cart-slider-1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/css/MUSA_carousel-product-cart-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/css/best-carousel-slide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/css/divider-text-middle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/img/architect-at-the-construction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/img/architects-and-worker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/img/young-college-students.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/js/--mp---Multiple-items-slider-responsive-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/js/--mp---Multiple-items-slider-responsive.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
     </list>
@@ -168,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609865869605</updated>
       <workItem from="1609865870742" duration="6706000" />
-      <workItem from="1609928235094" duration="1700000" />
+      <workItem from="1609928235094" duration="3554000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>
@@ -184,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609871222337</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added html">
+      <created>1609930572576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609930572576</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +184,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="bug fixes&#10;Django==2.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fixes&#10;Django==2.2" />
+    <MESSAGE value="added html" />
+    <option name="LAST_COMMIT_MESSAGE" value="added html" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/moviebest$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1609868482348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
