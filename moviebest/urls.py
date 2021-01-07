@@ -7,7 +7,8 @@ from movies import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
-    path('aboutus/', views.aboutus, name='aboutus')
+    path('aboutus/', views.aboutus, name='aboutus'),
+    path('register/', views.Register, name='Register')
 ]
 
 if settings.DEBUG:

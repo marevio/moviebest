@@ -310,3 +310,9 @@ figcaption {
   font-size: 16px;
 }
 
+#bodyHTML {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../../static/img/Hollywood_Sign_low.jpg);
+  background-size: cover;
+}
+

@@ -2,20 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6fc7db3-1ff5-456e-b8b2-33dda5de7164" name="Default Changelist" comment="added html code">
-      <change afterPath="$PROJECT_DIR$/movies/static/img/hollywood-walk-of-fame.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/img/lena_color.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/img/nik.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/movies/aboutus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/css/Login-Animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/css/Register-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/movies/Register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/movies/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Child_44_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Child_44_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Christian_Bale.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Christian_Bale.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Colin_Firth_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Colin_Firth_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Donovan_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Donovan_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Espinosa_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Espinosa_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Fleischer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Fleischer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Gere_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Gere_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Grant_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Grant_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Hodge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Hodge.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Håfström.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Håfström.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Inception.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Inception.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Jim_Broadbent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Jim_Broadbent.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/John_Cusack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/John_Cusack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Jones_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Jones_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/King_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/King_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Leonardo_dicabrio_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Leonardo_dicabrio_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mad_max.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Mad_max.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Miller_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Miller_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Phylida_floyd_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Phylida_floyd_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Pierce_Brosnar_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Pierce_Brosnar_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Roberts_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Roberts_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Robinson_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Robinson_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Seyfried_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Seyfried_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Theron.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Theron.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Tom_Hardy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Tom_Hardy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Ulfsak.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Ulfsak.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Venom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Venom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Williams.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Williams.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Zellweger_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Zellweger_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/streep_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/streep_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Δωμάτιο_1408.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Δωμάτιο_1408.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Η_σιδηρά_κυρία.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Η_σιδηρά_κυρία.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Ο_σκοτεινός_ιππότης-Η_επιστροφή.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Ο_σκοτεινός_ιππότης-Η_επιστροφή.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Το_κινητό.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/media/Το_κινητό.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviebest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moviebest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/css/--mp---Multiple-items-slider-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/css/--mp---Multiple-items-slider-responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/static/css/Header-Dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/css/Header-Dark.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/static/css/Navbarbuttonsignupsignin-modal-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/css/Navbarbuttonsignupsignin-modal-form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/fonts/ionicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/fonts/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/fonts/ionicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/fonts/ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/fonts/ionicons.woff" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
     </list>
@@ -55,12 +86,14 @@
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/movies/static/img" />
+      <recent name="$PROJECT_DIR$/movies/static/css" />
       <recent name="$PROJECT_DIR$/movies/templates/movies" />
+      <recent name="$PROJECT_DIR$/movies/static" />
+      <recent name="$PROJECT_DIR$/movies/static/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -146,6 +179,7 @@
       <updated>1609865869605</updated>
       <workItem from="1609865870742" duration="6706000" />
       <workItem from="1609928235094" duration="7298000" />
+      <workItem from="1610049124673" duration="6834000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>

@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="{%  static 'css/visionae-dashboard-navbar.css'%}">
 </head>
 
-<body>
+<body id="bodyHTML">
     <div>
         <div class="header-dark">
             <nav class="navbar navbar-dark navbar-expand-lg navigation-clean-search">
@@ -194,7 +194,12 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>About</h3>
                         <ul>
-                            <li><a href="aboutus">Team</a></li>
+                            <li><a href="#">movieBest</a></li>
+                            <li><a href="aboutus"
+                                   target="popup"
+                                   onclick="window.open('aboutus','popup','width=995,height=595');
+                                   return false;">
+                                   Team</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
