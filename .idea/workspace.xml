@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6fc7db3-1ff5-456e-b8b2-33dda5de7164" name="Default Changelist" comment="added html code">
-      <change afterPath="$PROJECT_DIR$/movies/Register_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/Registration-Form-with-Photo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/js/password.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/movies/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviesite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviesite/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviesite/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviesite/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviebest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/css/Register-form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/templates/movies/Register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +31,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///usr/local/lib/python3.8/site-packages/django/apps/config.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8/lib/python3.8/importlib/__init__.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -120,6 +113,9 @@
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -273,9 +269,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wsgi" />
         <item itemvalue="Python.settings" />
         <item itemvalue="Python.urls" />
-        <item itemvalue="Python.wsgi" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +290,9 @@
       <workItem from="1609928235094" duration="7298000" />
       <workItem from="1610049124673" duration="6834000" />
       <workItem from="1610559631003" duration="1049000" />
-      <workItem from="1610901315945" duration="12966000" />
+      <workItem from="1610901315945" duration="13116000" />
+      <workItem from="1610921188799" duration="209000" />
+      <workItem from="1610921402911" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>
@@ -324,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609962171943</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added html code">
+      <created>1610921120969</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610921120969</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added html code">
+      <created>1610921147921</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610921147921</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -369,9 +381,6 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bug fixes&#10;Django==2.2" />
     <MESSAGE value="added html" />
@@ -379,7 +388,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="added html code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/moviebest$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1610904927438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moviesite" />
+    <SUITE FILE_PATH="coverage/moviebest$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1610921580107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moviesite" />
     <SUITE FILE_PATH="coverage/moviebest$urls.coverage" NAME="urls Coverage Results" MODIFIED="1610906593686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moviesite" />
     <SUITE FILE_PATH="coverage/moviebest$settings.coverage" NAME="settings Coverage Results" MODIFIED="1610906600657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moviesite" />
     <SUITE FILE_PATH="coverage/moviebest$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1609868482348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
