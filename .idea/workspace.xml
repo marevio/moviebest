@@ -2,45 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6fc7db3-1ff5-456e-b8b2-33dda5de7164" name="Default Changelist" comment="added html code">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Django_server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Django_server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/Register_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/css/Registration-Form-with-Photo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/js/password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/movies/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviesite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviesite/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviesite/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviesite/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviebest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Child_44_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Child_44_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Christian_Bale.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Christian_Bale.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Colin_Firth_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Colin_Firth_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Donovan_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Donovan_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Espinosa_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Espinosa_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Fleischer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Fleischer.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Gere_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Gere_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Grant_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Grant_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Hodge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Hodge.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Håfström.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Håfström.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Inception.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Inception.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Jim_Broadbent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Jim_Broadbent.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/John_Cusack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/John_Cusack.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Jones_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Jones_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/King_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/King_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Leonardo_dicabrio_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Leonardo_dicabrio_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Mad_max.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Mad_max.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Miller_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Miller_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Phylida_floyd_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Phylida_floyd_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Pierce_Brosnar_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Pierce_Brosnar_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Roberts_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Roberts_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Robinson_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Robinson_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Seyfried_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Seyfried_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Theron.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Theron.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Tom_Hardy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Tom_Hardy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Ulfsak.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Ulfsak.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Venom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Venom.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Williams.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Williams.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Zellweger_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Zellweger_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/streep_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/streep_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Δωμάτιο_1408.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Δωμάτιο_1408.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Η_σιδηρά_κυρία.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Η_σιδηρά_κυρία.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Ο_σκοτεινός_ιππότης-Η_επιστροφή.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Ο_σκοτεινός_ιππότης-Η_επιστροφή.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/media/Το_κινητό.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Το_κινητό.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviebest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/css/Register-form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/Register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Setup Script" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -137,22 +115,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/movieSite" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movieSite" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movies/templates/movies" />
+      <recent name="$PROJECT_DIR$/movies/static/css" />
+      <recent name="$PROJECT_DIR$/movieSite" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/movies" />
-      <recent name="$PROJECT_DIR$/movies/static/css" />
-      <recent name="$PROJECT_DIR$/movies/templates/movies" />
-      <recent name="$PROJECT_DIR$/movies/static" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.moviebest">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="moviebest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,6 +148,72 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="moviebest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../pythonProject/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moviesite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moviesite/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="moviebest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../pythonProject/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moviesite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moviesite/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="moviebest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../pythonProject/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moviesite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moviesite/wsgi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,6 +271,13 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.urls" />
+        <item itemvalue="Python.wsgi" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -240,6 +294,7 @@
       <workItem from="1609928235094" duration="7298000" />
       <workItem from="1610049124673" duration="6834000" />
       <workItem from="1610559631003" duration="1049000" />
+      <workItem from="1610901315945" duration="12966000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>
@@ -324,6 +379,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="added html code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/moviebest$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1610904927438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moviesite" />
+    <SUITE FILE_PATH="coverage/moviebest$urls.coverage" NAME="urls Coverage Results" MODIFIED="1610906593686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moviesite" />
+    <SUITE FILE_PATH="coverage/moviebest$settings.coverage" NAME="settings Coverage Results" MODIFIED="1610906600657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moviesite" />
     <SUITE FILE_PATH="coverage/moviebest$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1609868482348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">

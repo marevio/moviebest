@@ -8,7 +8,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('aboutus/', views.aboutus, name='aboutus'),
-    path('register/', views.Register, name='Register')
+    path('register/', views.Register, name='register'),
+    path('login/', views.Register, name='login')
 ]
 
 if settings.DEBUG:
