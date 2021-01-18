@@ -1,3 +1,4 @@
+
 var password = document.getElementById("id_password")
   , confirm_password = document.getElementById("id_password-repeat");
 
@@ -11,3 +12,4 @@ function validatePassword(){
 
 password.onchange = validatePassword;
 confirm_password.onkeyup = validatePassword;
+

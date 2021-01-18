@@ -1,10 +1,14 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
-from django.contrib.auth import login as logins, logout ,authenticate
+from django.contrib import messages
+from django.contrib.auth import login , logout ,authenticate
 from django.utils import timezone
 from .models import Movie
 
+
 # Create your views here.
+from .Register_form import Register_form
+
 
 # Home
 def home(request):
@@ -16,15 +20,37 @@ def aboutus(request):
 
 # Register
 def Register(request):
+    form = Register_form()
+
     if request.method == 'POST':
-        Register_form = UserCreationForm(request.POST)
-        if Register_form.is_valid():
-            user = Register_form.save()
-            logins(request, user)
-            return redirect('home.html')
-    else:
-        Register_form = UserCreationForm()
-    return render(request, 'movies/Register.html',{'Register_form':Register_form})
+        form = Register_form(request.POST)
+        if form.is_valid():
+            form.save()
+
+    context = {'form' : form}
+    return  render(request, 'movies/Register.html', context)
+
+#login
+def login(request):
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+
+        user = authenticate(request, username=username, password=password)
+
+        if user is not None:
+            login(request, user)
+            return redirect('movies/home.html')
+        else:
+            messages.info(request, 'Username OR password is incorrect')
+
+    context = {}
+    return render(request, 'movie/login.html', context)
+
+#logout
+def logoutUser(request):
+    logout(request)
+    return redirect(request, 'movie/login.html')
 
 #movies
 def movie_list(request):
@@ -46,15 +72,3 @@ def movie_list(request):
 def movie_detail(request, pk):
     post = get_object_or_404(Movie, pk=pk)
     return render(request, 'movies/movie_detail.html', {'movie': post})
-
-
-#login
-def login(request):
-    if request.method == 'POST':
-        Login_form = AuthenticationForm(data=request.POST)
-        if Login_form.is_valid():
-            return redirect('movies/home.html')
-    else:
-        Login_form = AuthenticationForm()
-
-    return render(request,'movie/login.html',{'Login_form':Login_form})
