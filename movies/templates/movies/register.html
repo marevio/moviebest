@@ -23,10 +23,12 @@
                 <div class="form-group">{{ form.email.label}} {{ form.email }}</div>
                 <div class="form-group" >{{ form.password1.label }} {{ form.password1 }} </div>
                 <div class="form-group">{{ form.password2.label }} {{ form.password2 }} </div>
+                <div class="form-group">{{ form.errors }} </div>
                 <div class="form-group">
                     <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox" required>I agree to the license terms.</label></div>
                 </div>
                 <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Sign Up</button></div>
+                <div class="form-group"><label><strong>Do you have an account ?&nbsp; &nbsp; &nbsp; &nbsp;</strong></label><a onclick="location.href='/login'" href="#">Sign In</a></div>
             </form>
         </div>
     </div>
