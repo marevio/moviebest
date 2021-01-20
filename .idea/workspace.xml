@@ -3,6 +3,44 @@
   <component name="ChangeListManager">
     <list default="true" id="b6fc7db3-1ff5-456e-b8b2-33dda5de7164" name="Default Changelist" comment="bug fix it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Child_44_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Child_44_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Christian_Bale.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Christian_Bale.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Colin_Firth_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Colin_Firth_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Donovan_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Donovan_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Espinosa_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Espinosa_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Fleischer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Fleischer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Gere_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Gere_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Grant_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Grant_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Hodge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Hodge.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Håfström.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Håfström.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Inception.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Inception.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Jim_Broadbent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Jim_Broadbent.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/John_Cusack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/John_Cusack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Jones_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Jones_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/King_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/King_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Leonardo_dicabrio_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Leonardo_dicabrio_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mad_max.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Mad_max.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Miller_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Miller_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Phylida_floyd_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Phylida_floyd_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Pierce_Brosnar_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Pierce_Brosnar_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Roberts_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Roberts_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Robinson_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Robinson_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Seyfried_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Seyfried_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Theron.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Theron.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Tom_Hardy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Tom_Hardy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Ulfsak.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Ulfsak.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Venom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Venom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Williams.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Williams.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Zellweger_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Zellweger_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/streep_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/streep_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Δωμάτιο_1408.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Δωμάτιο_1408.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Η_σιδηρά_κυρία.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Η_σιδηρά_κυρία.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Ο_σκοτεινός_ιππότης-Η_επιστροφή.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Ο_σκοτεινός_ιππότης-Η_επιστροφή.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Το_κινητό.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/media/Το_κινητό.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,11 +165,11 @@
       <recent name="$PROJECT_DIR$/movieSite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movies/movies" />
+      <recent name="$PROJECT_DIR$/movies" />
       <recent name="$PROJECT_DIR$/movies/templates/movies" />
       <recent name="$PROJECT_DIR$/movies/static/css" />
       <recent name="$PROJECT_DIR$/movieSite" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/movies" />
     </key>
   </component>
   <component name="RunManager" selected="Django Server.moviebest">
@@ -300,6 +338,7 @@
       <workItem from="1610921402911" duration="1406000" />
       <workItem from="1610999808319" duration="6007000" />
       <workItem from="1611076517145" duration="8429000" />
+      <workItem from="1611173182392" duration="5679000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>

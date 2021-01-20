@@ -4,17 +4,18 @@ from django.contrib import messages
 from django.contrib.auth import login as logins , logout ,authenticate
 from django.utils import timezone
 from .models import Movie
-
+from movies import models
 from django.contrib.auth.decorators import login_required
+from .Register_form import Register_form
 
 
 # Create your views here.
-from .Register_form import Register_form
 
 
 # Home
 def home(request):
-    return render(request, 'movies/home.html')
+    Movies_obj = models.Movie.objects.all()
+    return render(request, 'movies/home.html', {'movies': Movies_obj})
 
 # About us
 def aboutus(request):
