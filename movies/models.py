@@ -98,6 +98,7 @@ class Movie(models.Model):
     company = models.ForeignKey(Company, on_delete=models.PROTECT, verbose_name="Εταιρία Παραγωγής", null=True)
     created_at = models.DateTimeField(auto_now_add=True, verbose_name="Ημερομηνία Δημιουργίας")
     updated_at = models.DateTimeField(auto_now=True, verbose_name="Ημερομηνία Ενημέρωσης")
+    views = models.IntegerField(null=True, verbose_name="Προβολες")
 
     def __str__(self):
         if self.premiere_date == None:

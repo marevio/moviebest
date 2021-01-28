@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06426d28-66b0-4cbb-9190-4e76e61a9ed7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/movies/migrations/0002_auto_20210128_2003.py" afterDir="false" />
+    <list default="true" id="06426d28-66b0-4cbb-9190-4e76e61a9ed7" name="Default" comment="html code added">
+      <change afterPath="$PROJECT_DIR$/movies/migrations/0003_movie_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/movies/mainView.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/migrations/0002_actor_company_director_movie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/migrations/0003_auto_20210105_0933.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/migrations/0004_movie_language.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/migrations/0005_auto_20210105_1003.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/migrations/0006_auto_20210105_1218.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/migrations/0007_actor_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviebest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/aboutus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +26,7 @@
         <option value="Setup Script" />
         <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -137,6 +135,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -147,7 +146,7 @@
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
@@ -344,7 +343,7 @@
       <workItem from="1611173182392" duration="5679000" />
       <workItem from="1611777813589" duration="36000" />
       <workItem from="1611777876547" duration="2533000" />
-      <workItem from="1611853791678" duration="3180000" />
+      <workItem from="1611853791678" duration="11318000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>
@@ -423,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611245126380</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="html code added">
+      <created>1611857735633</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611857735633</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -479,7 +485,8 @@
     <MESSAGE value="added html code login - logout - register" />
     <MESSAGE value="bug fix it" />
     <MESSAGE value="ABOUT US" />
-    <option name="LAST_COMMIT_MESSAGE" value="ABOUT US" />
+    <MESSAGE value="html code added" />
+    <option name="LAST_COMMIT_MESSAGE" value="html code added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/moviebest$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1610921580107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moviesite" />

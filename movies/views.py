@@ -15,7 +15,9 @@ from .Register_form import Register_form
 # Home
 def home(request):
     Movies_obj = models.Movie.objects.all()
-    return render(request, 'movies/home.html', {'movies': Movies_obj})
+    Movies_obj_Created = models.Movie.objects.order_by('created_at')
+    Movies_obj_Watched = models.Movie.objects.order_by('views')
+    return render(request, 'movies/home.html', {'movies': Movies_obj, 'moviesCreated': Movies_obj_Created, 'moviesViews': Movies_obj_Watched} )
 
 # About us
 def aboutus(request):
@@ -80,7 +82,7 @@ def movie_list(request):
             posts = Movie.objects.filter(published_date__lte=timezone.now()).filter(text__contains=txt).order_by('published_date')
     else:
         posts = Movie.objects.filter(published_date__lte=timezone.now()).filter(category=cat).order_by('published_date')
-    return render(request, 'movies/movie_list.html', {'movies': posts})
+    return render(request, 'movies/movie_list.html', {'movies': posts}, {'moviesCreated': posts.order_by('created_at')})
 
 #movie detail
 @login_required(login_url='login')
