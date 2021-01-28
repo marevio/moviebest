@@ -86,7 +86,7 @@
                 {% endif %}
                 <!--<img class="d-block w-100 h-50" class="h-50 d-inline-block" src="{{ obj.image.url }}" alt="{{obj.title}} ">-->
                 <td align="center" bgcolor="white" style="padding: 40px 0 30px 0;">
-                <img src="{{ obj.image.url }}" alt="{{obj.title}}"  width="960" height="445">
+                <img align="center" alt="{{obj.title}}" src="{{ obj.poster.url }}"  width="1200" height="500">
                 </td>
                 </div>
             {% endfor %}
@@ -112,46 +112,13 @@
     <section style="margin-top: 20px;">
 
         <div class="d-flex flex-row multiple-item-slider">
+            {% for obj in movies %}
             <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=0" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
+                <figure class="figure"><img class="img-fluid figure-img" src="{{ obj.image.url }}" alt="alt text here">
+                    <figcaption class="figure-caption">{{ obj.title }}</figcaption>
                 </figure>
             </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img mx-auto d-block" src="https://picsum.photos/1080/1335?image=1083" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=1076" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=1075" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=1074" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=1071" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=1060" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img d-flex" src="https://picsum.photos/1080/1335?image=1045" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
+            {% endfor %}
         </div>
 
     </section>
@@ -161,48 +128,17 @@
     </div>
     <section style="margin-top: 20px;">
         <div class="d-flex flex-row multiple-item-slider">
+            {% for obj in movies %}
             <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=0" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
+                <figure class="figure"><img class="img-fluid figure-img" src="{{ obj.image.url }}" alt="alt text here">
+                    <figcaption class="figure-caption">{{ obj.title }}</figcaption>
                 </figure>
             </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img mx-auto d-block" src="https://picsum.photos/1080/1335?image=1083" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=1076" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=1075" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=1074" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=1071" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img" src="https://picsum.photos/1080/1335?image=1060" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
-            <div class="justify-content-center spacer-slider">
-                <figure class="figure"><img class="img-fluid figure-img d-flex" src="https://picsum.photos/1080/1335?image=1045" alt="alt text here">
-                    <figcaption class="figure-caption">Caption</figcaption>
-                </figure>
-            </div>
+            {% endfor %}
         </div>
+
     </section>
+
     <div class="footer-dark">
         <footer>
             <div class="container">
