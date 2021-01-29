@@ -103,4 +103,4 @@ def movie_list(request):
 @login_required(login_url='login')
 def movie_detail(request, pk):
     post = get_object_or_404(Movie, pk=pk)
-    return render(request, 'movies/movie_detail.html', {'movie': post})
+    return render(request, 'movies/detail.html', {'movie': post})
