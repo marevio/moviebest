@@ -5,12 +5,37 @@
 
 <div>
 
-<div class="container" style="color: var(--light);">
-    <h1>Επικοινωνήστε μαζί μας</h1>
-    ...
-    
-</div>
+<style>
+h1 {
+  text-align: center;
+}
+</style>
 
+<div class="container" style="color: var(--light); alignment: center">
+    <h1>Επικοινωνήστε μαζί μας.</h1>
+
+    <form style="background-color: transparent" method="POST" >
+        {% csrf_token %}
+    <p>
+        <label for="id_subject">Subject:</label>
+        <input id="id_subject" type="text" name="subject" maxlength="100" required/>
+    </p>
+        <p>
+            <label for="id_email_sender">Email address:</label>
+            <input type="email" name="email" id="id_email_sender" required/>
+            <!--<textarea class="form-control" id="id_email_sender" placeholder="message" name="message"/>-->
+        </p>
+        <p>
+            <label for="id_message">Message:</label>
+            <input type="text" name="message" id="id_message" required/>
+        </p>
+        <p>
+            <label for="id_cc_myself">Αποδέχομαι τους όρους χρήσης:</label>
+            <input type="checkbox" name="cc_myself" id="id_cc_myself" required/>
+        </p>
+        <input type="submit" value="Submit" />
+    </form>
+</div>
 </div>
 
 {% endblock content %}

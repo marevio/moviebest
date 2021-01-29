@@ -112,3 +112,16 @@ class Movie(models.Model):
         verbose_name = "Ταινία"
         verbose_name_plural = "Ταινίες"
         ordering = ["title"]
+
+class Contact(models.Model):
+    subject=models.CharField(max_length=100)
+    email=models.EmailField()
+    message=models.TextField()
+    def __str__(self):
+        return "{0} ({1} {2})".format(self.subject, self.email, self.message)
+
+    class Meta:
+        db_table = "Contact"
+        verbose_name = "Επικοινωνία"
+        verbose_name_plural = "Επικοινωνία"
+        ordering = ["subject"]

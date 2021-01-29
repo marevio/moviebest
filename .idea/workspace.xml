@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06426d28-66b0-4cbb-9190-4e76e61a9ed7" name="Default" comment="html code added">
-      <change afterPath="$PROJECT_DIR$/movies/movies/media/-8067631962070850770.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/movies/media/510779_inception-movie-hd-wallpapers_1920x1080_h.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/movies/media/578_straightstory.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/movies/media/948957.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Django_server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Django_server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/migrations/0005_auto_20210129_1957.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/movies/contactMessage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/mainView.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/mainView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,6 +361,7 @@
       <workItem from="1611777876547" duration="2533000" />
       <workItem from="1611853791678" duration="11318000" />
       <workItem from="1611917462549" duration="342000" />
+      <workItem from="1611936311670" duration="15087000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>

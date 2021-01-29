@@ -1,14 +1,13 @@
 {% extends 'movies/home.html' %}
 
 {% block content %}
-    <div id="promo"></div>
 <section id="carousel">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             {% for obj in movies %}
                 {% if forloop.first %}
-                    <li data-target="#carouselExampleIndicators" data-slide-to="{{forloop.counter0}}" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="{{forloop.counter0}}" ></li>
                 {% else %}
                     <li data-target="#carouselExampleIndicators" data-slide-to="{{forloop.counter0}}"></li>
                 {% endif %}

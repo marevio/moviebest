@@ -1,13 +1,13 @@
 from django.shortcuts import render, redirect, get_object_or_404
+from django.http import HttpResponse
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib import messages
 from django.contrib.auth import login as logins , logout ,authenticate
 from django.utils import timezone
-from .models import Movie
+from .models import Movie, Contact
 from movies import models
 from django.contrib.auth.decorators import login_required
 from .Register_form import Register_form
-
 
 # Create your views here.
 
@@ -25,6 +25,17 @@ def aboutus(request):
 
 # Contact
 def contact(request):
+    if request.method=="POST":
+        contact=Contact()
+        subject=request.POST.get('subject')
+        email = request.POST.get('email')
+        message = request.POST.get('message')
+        contact.subject=subject
+        contact.email=email
+        contact.message=message
+        contact.save()
+        return render(request, 'movies/contactMessage.html')
+        #return HttpResponse()
     return render(request, 'movies/contact.html')
 
 # Register
