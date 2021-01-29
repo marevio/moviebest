@@ -7,7 +7,8 @@ from movies import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
-    path('aboutus/', views.aboutus, name='aboutus'),
+    path('team/', views.aboutus, name='team'),
+    path('contact/', views.contact, name='contact'),
     path('register/', views.Register, name='register'),
     path('login/', views.login, name='login'),
     path('logout/', views.logoutUser, name='logout')

@@ -17,11 +17,15 @@ def home(request):
     Movies_obj = models.Movie.objects.all()
     Movies_obj_Created = models.Movie.objects.order_by('created_at')
     Movies_obj_Watched = models.Movie.objects.order_by('views')
-    return render(request, 'movies/home.html', {'movies': Movies_obj, 'moviesCreated': Movies_obj_Created, 'moviesViews': Movies_obj_Watched} )
+    return render(request, 'movies/mainView.html', {'movies': Movies_obj, 'moviesCreated': Movies_obj_Created, 'moviesViews': Movies_obj_Watched} )
 
 # About us
 def aboutus(request):
     return render(request, 'movies/aboutus.html')
+
+# Contact
+def contact(request):
+    return render(request, 'movies/contact.html')
 
 # Register
 def Register(request):

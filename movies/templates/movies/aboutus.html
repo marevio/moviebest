@@ -1,47 +1,34 @@
-<!DOCTYPE html>
-
+{% extends 'movies/home.html' %}
 {% load static %}
 
-<html>
+{% block content %}
+<div class="container" style="color: var(--light);">
+    <h1>ΣΧΕΤΙΚΑ ΜΕ ΜΑΣ</h1>
+    <p align="justify">Η ομάδας μας συστάθηκε στις 10/12/2020 εντός του Π.Μ.Σ στην Εφαρμοσμένη Πληροφορικη του τμήματός Μηχανικων Πληροφορικής Υπολογιστών και Τηλεπικοινωνιών.
+        Aποτελείται από τρία μέλη έναν άντρα και δύο γυναίκες,από δύο διαφορετικά επιστημονικά πεδία της Πληροφορικής και των Μαθηματικών.
+        Tελικός στόχος της η επίτευξη της εργασίας στο μάθημα Ανάπτυξης Λογισμικού με θέμα "Δημιουργία ενός site ταινιών με το Django" με χρήση του προγράμματος Pycharm και
+        της python.Με επιβλέπων καθηγήτη τον Βολογιαννιδη Σταύρο επίκουρο καθηγητή του ΔΙΠΑΕ ΣΕΡΡΩΝ του τμήματος της Πληροφορικής</p>
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="my-4">Η ΟΜΑΔΑ ΜΑΣ</h2>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img class="rounded-circle img-fluid d-block mx-auto" src="{%  static 'img/nik.jpg'%}">
+            <h3 class="m-0">Νίκος Ψαράγκαθος</h3>
+            <h5 class="my-1">Μηχανικός Πληροφορικής</h5>
+            <p>Απόφοιτος του τμήματος Πληροφορικής και επικοινωνιών!</p>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img class="rounded-circle img-fluid d-block mx-auto" src="{%  static 'img/lena_color.jpg'%}">
+            <h3 class="m-0">Μαρία Χοϊλού</h3>
+            <h5 class="my-1">Μηχανικός Πληροφορικής</h5>
+            <p>Αποφοίτος του τμήματος Πληροφορικής και Επικοινωνιών</p>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>aboutus</title>
-    <link rel="stylesheet" href="{%  static 'bootstrap/css/bootstrap.min.css'%}">
-    <link rel="stylesheet" href="{%  static 'css/styles.css'%}">
-</head>
-
-<body id="aboutus" >
-    <div class="container" style="color: var(--light);">
-        <h1>ΣΧΕΤΙΚΑ ΜΕ ΜΑΣ</h1>
-        <p align="justify">Η ομάδας μας συστάθηκε στις 10/12/2020 εντός του Π.Μ.Σ στην Εφαρμοσμένη Πληροφορικη του τμήματός Μηχανικων Πληροφορικής Υπολογιστών και Τηλεπικοινωνιών.
-            Aποτελείται από τρία μέλη έναν άντρα και δύο γυναίκες,από δύο διαφορετικά επιστημονικά πεδία της Πληροφορικής και των Μαθηματικών.
-            Tελικός στόχος της η επίτευξη της εργασίας στο μάθημα Ανάπτυξης Λογισμικού με θέμα "Δημιουργία ενός site ταινιών με το Django" με χρήση του προγράμματος Pycharm και
-            της python.Με επιβλέπων καθηγήτη τον Βολογιαννιδη Σταύρο επίκουρο καθηγητή του ΔΙΠΑΕ ΣΕΡΡΩΝ του τμήματος της Πληροφορικής</p>
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="my-4">Η ΟΜΑΔΑ ΜΑΣ</h2>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4 text-center"><img class="rounded-circle img-fluid d-block mx-auto" src="{%  static 'img/nik.jpg'%}">
-                <h3 class="m-0">Νίκος Ψαράγκαθος</h3>
-                <h5 class="my-1">Μηχανικός Πληροφορικής</h5>
-                <p>Απόφοιτος του τμήματος Πληροφορικής και επικοινωνιών!</p>
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4 text-center"><img class="rounded-circle img-fluid d-block mx-auto" src="{%  static 'img/lena_color.jpg'%}">
-                <h3 class="m-0">Μαρία Χοϊλού</h3>
-                <h5 class="my-1">Μηχανικός Πληροφορικής</h5>
-                <p>Αποφοίτος του τμήματος Πληροφορικής και Επικοινωνιών</p>
-
-            </div>
-            <div class="col-sm-6 col-lg-4 mb-4 text-center"><img class="rounded-circle img-fluid d-block mx-auto" src="{%  static 'img/lena_color.jpg'%}">
-                <h3 class="m-0">Ειρήνη Χρονάκη</h3>
-                <h5 class="my-1">Μαθηματικός</h5>
-                <p>Απόφοιτή του τμήματος Μαθηματικών</p>
-            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4 text-center"><img class="rounded-circle img-fluid d-block mx-auto" src="{%  static 'img/lena_color.jpg'%}">
+            <h3 class="m-0">Ειρήνη Χρονάκη</h3>
+            <h5 class="my-1">Μαθηματικός</h5>
+            <p>Απόφοιτή του τμήματος Μαθηματικών</p>
         </div>
     </div>
+</div>
+{% endblock content %}
 
-</body>
-
-</html>
