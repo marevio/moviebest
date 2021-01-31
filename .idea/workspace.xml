@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06426d28-66b0-4cbb-9190-4e76e61a9ed7" name="Default" comment="Detail View added">
-      <change afterPath="$PROJECT_DIR$/movies/migrations/0007_auto_20210131_1154.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/movies/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/movies/search_2.html" afterDir="false" />
+    <list default="true" id="06426d28-66b0-4cbb-9190-4e76e61a9ed7" name="Default" comment="simple search added">
+      <change afterPath="$PROJECT_DIR$/movies/templates/movies/adv_search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviebest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/templates/movies/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,7 +358,7 @@
       <workItem from="1611917462549" duration="342000" />
       <workItem from="1611936311670" duration="15087000" />
       <workItem from="1611956720094" duration="1000000" />
-      <workItem from="1612025212177" duration="29744000" />
+      <workItem from="1612025212177" duration="31375000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>
@@ -458,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612082392576</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="simple search added">
+      <created>1612094711609</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612094711609</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -513,7 +513,8 @@
     <MESSAGE value="ABOUT US" />
     <MESSAGE value="html code added" />
     <MESSAGE value="Detail View added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detail View added" />
+    <MESSAGE value="simple search added" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple search added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/moviebest$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1610921580107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moviesite" />

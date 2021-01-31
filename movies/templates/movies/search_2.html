@@ -7,7 +7,7 @@
         <div class="d-flex flex-row multiple-item-slider">
             {% for obj in home_movie %}
                 <div class="justify-content-center spacer-slider">
-                    <figure class="figure"><a><img class="img-fluid figure-img" src="{{ obj.image.url }}" alt="alt text here"></a>
+                    <figure class="figure"><a href="{% url 'detail' obj.title %}"><img class="img-fluid figure-img" src="{{ obj.image.url }}" alt="alt text here"></a>
                         <figcaption class="figure-caption">{{ obj.title }}</figcaption>
                     </figure>
                 </div>
