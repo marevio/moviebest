@@ -83,7 +83,7 @@ def logoutUser(request):
     return redirect('home')
 
 #movies
-def movie_list(request):
+def advSearch(request):
     cat=request.GET.get('cat','')
     txt=request.GET.get('txt','')
     try:

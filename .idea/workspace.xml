@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06426d28-66b0-4cbb-9190-4e76e61a9ed7" name="Default" comment="simple search added">
-      <change afterPath="$PROJECT_DIR$/movies/templates/movies/adv_search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/templates/movies/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviebest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,6 +360,7 @@
       <workItem from="1611936311670" duration="15087000" />
       <workItem from="1611956720094" duration="1000000" />
       <workItem from="1612025212177" duration="31375000" />
+      <workItem from="1612128988634" duration="2525000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>

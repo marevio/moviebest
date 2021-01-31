@@ -49,10 +49,10 @@
                             </li>
                             <li class="nav-item"></li>
                         </ul>
-                        <form class="form-inline ml-auto" target="_self">
-                            <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
+                        <form class="form-inline ml-auto" type="get" action="adv_search.html">
+                            <div class="form-group"><label for="search-field"><i class="fa fa-search" ></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div></form>
                             {% if request.user.is_authenticated %}
-                                </form><span class="navbar-text"><a class="login" href="#">Hello, {{request.user.username}}</a></span><a class="btn btn-light action-button" onclick="location.href='/logout'" role="button" href="#">Sign Out</a>
+                                <span class="navbar-text"><a class="login" href="#">Hello, {{request.user.username}}</a></span><a class="btn btn-light action-button" onclick="location.href='/logout'" role="button" href="#">Sign Out</a>
                             {% else %}
                                  </form><span class="navbar-text"><a class="login" onclick="location.href='/login'" href="#">Log In</a></span><a class="btn btn-light action-button" onclick="location.href='/register'" role="button" href="#">Sign Up</a>
                             {% endif %}
