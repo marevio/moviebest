@@ -1,6 +1,5 @@
 from django.db import models
 
-
 # Create your models here.
 
 # Gendre
@@ -29,6 +28,10 @@ class Genre(models.Model):
         verbose_name_plural = "Είδη ταινιών"
         ordering = ["genre_description"]
 
+Language_choice = {
+    ('EN', 'English'),
+    ('GR', 'Greek')
+}
 
 class Company(models.Model):
     company_description = models.CharField(max_length=100, verbose_name="Εταιρία Παραγωνής")
@@ -84,7 +87,7 @@ class Movie(models.Model):
     title = models.CharField(max_length=100, verbose_name="Τίτλος ταινίας")
     duration = models.IntegerField(null=True, verbose_name="Διάρκεια")
     genre = models.ForeignKey(Genre, on_delete=models.PROTECT, verbose_name='Είδος')
-    language = models.CharField(max_length=20, verbose_name="Γλώσσα", null=True)
+    language = models.CharField(choices=Language_choice, max_length=20, verbose_name="Γλώσσα", null=True)
     premiere_date = models.DateField(verbose_name="Ημερομηνία Πρεμίερας", null=True)
     url_imbd = models.CharField(max_length=300, verbose_name="Σύνδεσμος_IMBD")
     image = models.ImageField(null=True, verbose_name="Εξώφυλλο")

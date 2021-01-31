@@ -12,7 +12,9 @@ urlpatterns = [
     path('register/', views.Register, name='register'),
     path('login/', views.login, name='login'),
     path('logout/', views.logoutUser, name='logout'),
-    path('detail/<movie_id>', views.detail, name='detail')
+    path('detail/<movie_id>', views.detail, name='detail'),
+    path('search/<movie_id>', views.search, name='search'),
+    path('search_2/<movie_id>', views.search_2, name='search_2')
 ]
 
 if settings.DEBUG:

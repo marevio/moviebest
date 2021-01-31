@@ -102,10 +102,17 @@ def movie_list(request):
 #movie detail
 @login_required(login_url='login')
 def detail(request, movie_id):
-    #movie_obj=Movie
     get_movie = models.Movie.objects.get(title=movie_id)
     return render(request, 'movies/detail.html', {'home_movie': get_movie})
 
-#def movie_detail(request, movie_id):
-#    post = get_object_or_404(Movie, movie_id=movie_id)
-#    return render(request, 'movies/detail.html', {'movie': post})
+#movie language Search
+@login_required(login_url='login')
+def search(request, movie_id):
+    get_movie = models.Movie.objects.filter(language=movie_id)
+    return render(request, 'movies/search.html', {'home_movie': get_movie.all()})
+
+#movie genre Search
+@login_required(login_url='login')
+def search_2(request, movie_id):
+    get_movie = models.Movie.objects.filter(genre__genre_description=movie_id)
+    return render(request, 'movies/search_2.html', {'home_movie': get_movie.all()})
