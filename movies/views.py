@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib import messages
-from django.contrib.auth import login as logins , logout ,authenticate
+from django.contrib.auth import login as logins, logout, authenticate
 from django.utils import timezone
 from .models import Movie, Contact
 from movies import models
@@ -101,6 +101,11 @@ def movie_list(request):
 
 #movie detail
 @login_required(login_url='login')
-def movie_detail(request, pk):
-    post = get_object_or_404(Movie, pk=pk)
-    return render(request, 'movies/detail.html', {'movie': post})
+def detail(request, movie_id):
+    #movie_obj=Movie
+    get_movie = models.Movie.objects.get(title=movie_id)
+    return render(request, 'movies/detail.html', {'home_movie': get_movie})
+
+#def movie_detail(request, movie_id):
+#    post = get_object_or_404(Movie, movie_id=movie_id)
+#    return render(request, 'movies/detail.html', {'movie': post})

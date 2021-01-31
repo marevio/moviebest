@@ -1,29 +1,39 @@
 {% extends 'movies/home.html' %}
+{% load static %}
 
 {% block content %}
+<body>
+    <h1 class="text-white-50"> {{ home_movie.title }}</h1>
+    <div class="video-container"><iframe allowfullscreen="" frameborder="0" src="{{ home_movie.trailer }}" width="853" height="480"></iframe></div>
+    <h1 class="text-white-50">Info</h1>
+    <section class="bg-transparent">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-6" style="padding: 0px;background: url({{ home_movie.image.url }}) center / cover no-repeat;">
+                    <p><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <h5 class="text-white-50" style="padding-top: 20px;padding-left: 15px;padding-right: 15px;">Plot :</h5>
+                    <hr>
+                    <p class="text-white-50"  style="padding-left: 15px;padding-right: 15px;">{{ home_movie.plot }}</p>
+                    <h5 class="text-white-50" style="padding-top: 20px;padding-left: 15px;padding-right: 15px;">Critics :</h5>
+                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;"> {{ home_movie.critics }}</p>
+                    <h5 class="text-white-50" style="padding-top: 20px;padding-left: 15px;padding-right: 15px;">More :</h5>
+                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Total Views : {{ home_movie.views }} </p>
+                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Company : {{ home_movie.company }} </p>
+                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Director : {{ home_movie.director }} </p>
+                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Actors : {{ home_movie.actors.all }} </p>
+                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Premier : {{ home_movie.premiere_date }}, Duration : {{ home_movie.duration }} Λεπτά </p>
+                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Language : {{ home_movie.language }} </p>
 
-<main class="content" style="background-color: transparent">
-    <div class="detail">
-        <section class="trailer">
-            <h3>Trailer</h3>
-            <div class="trailer_frame">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/x73-573aWfs" frameborder="0" allowfullscreen></iframe>
+                    <div style="text-align:center"></div>
+                </div>
             </div>
-        </section>
-        <section class="movie">
-            <img src="static/image.jpg">
-            <ul>
-                <li>Space Between Us</li>
-                <li>The first human born on Mars travels to Earth for the first time, experiencing the wonders of the planet through fresh eyes. He embarks on an adventure with a street smart girl to discover how he came to be.</li>
-                <li><a href="genre.html">Adventure</a>, <a href="genre.html">Drama</a>, <a href="genre.html">Romance</a></li>
-                <li><a href="cast.html">Gary Oldman</a>, <a href="cast.html">Asa Butterfield</a></li>
-                <li>12,000 Views</li>
-            </ul>
-        </section>
-
-    </div>
-</main>
-
+        </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
 
 
 {% endblock content %}

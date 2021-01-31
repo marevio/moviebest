@@ -12,7 +12,7 @@ urlpatterns = [
     path('register/', views.Register, name='register'),
     path('login/', views.login, name='login'),
     path('logout/', views.logoutUser, name='logout'),
-    path('detail/', views.movie_detail, name='detail')
+    path('detail/<movie_id>', views.detail, name='detail')
 ]
 
 if settings.DEBUG:
