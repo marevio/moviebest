@@ -82,6 +82,9 @@ class Actor(models.Model):
         verbose_name_plural = "Ηθοποιοί"
         ordering = ["actor_lastName"]
 
+    def fullname(self):
+        return self.actor_lastName + " " + self.actor_firstName
+
 
 class Movie(models.Model):
     title = models.CharField(max_length=100, verbose_name="Τίτλος ταινίας")
@@ -115,6 +118,13 @@ class Movie(models.Model):
         verbose_name = "Ταινία"
         verbose_name_plural = "Ταινίες"
         ordering = ["title"]
+
+    def get_actors_str(self):
+        actors_str = ""
+        actors = self.actors.all()
+        for actor in actors:
+            actors_str += actor.fullname() + ", "
+        return actors_str[:-2]
 
 class Contact(models.Model):
     subject=models.CharField(max_length=100)

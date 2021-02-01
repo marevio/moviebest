@@ -2,11 +2,126 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06426d28-66b0-4cbb-9190-4e76e61a9ed7" name="Default" comment="simple search added">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/1027082_a-beautiful-mind-wallpapers_1920x1080_h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/A_Beautiful_Mind.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/MissionImpossible.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Mission_Impossible__Fallout.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Mission_Impossible__poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/R__ManInTheIronMask1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/The_Man_in_the_Iron_Mask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/The_Tourist.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/The_Twilight_Saga_Breaking_Dawn_-_Part_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/The_Twilight_Saga_Eclipse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/The_Wolf_of_Wall_Street.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/The_Wolf_of_Wall_Street_poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Twilight.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/hatchico.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/hatchico_poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/lasse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/mission_impossible_fallout_4k_8k_2019-1600x900_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/the-tourist-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/the-twilight-saga-breaking-dawn-part-1-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/twilight-eclipse-new-official-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/twilight-eclipse-new-official-poster2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/moviebest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/moviebest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Django_server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Django_server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviebest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviebest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/-8067631962070850770.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/-8067631962070850770.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/510779_inception-movie-hd-wallpapers_1920x1080_h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/510779_inception-movie-hd-wallpapers_1920x1080_h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/578_straightstory.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/578_straightstory.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/948957.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/948957.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Bridget_Jones_Η_επόμενη_σελίδα.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Bridget_Jones_Η_επόμενη_σελίδα.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/CHRISTOS_DIMAS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/CHRISTOS_DIMAS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Child_44_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Child_44_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Christian_Bale.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Christian_Bale.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Christofer_Nolan.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/Christofer_Nolan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Colin_Firth_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Colin_Firth_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Donovan_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Donovan_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Espinosa_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Espinosa_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Fleischer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Fleischer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Garry_Marshall_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Garry_Marshall_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Gere_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Gere_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Grant_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Grant_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Hodge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Hodge.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Håfström.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Håfström.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/IMG_5848.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/IMG_5848.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/IMG_8719.jpg.webp" beforeDir="false" afterPath="$PROJECT_DIR$/media/IMG_8719.jpg.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Inception.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Inception.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Jim_Broadbent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Jim_Broadbent.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/John_Cusack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/John_Cusack.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Jones_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Jones_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Kidron.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Kidron.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/King_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/King_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Leonardo_dicabrio_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Leonardo_dicabrio_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Mad_max.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Mad_max.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Mamma_Mia_Here_We_Go_Again.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Mamma_Mia_Here_We_Go_Again.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Miller_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Miller_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Miss_Director.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Miss_Director.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/One_Night_in_Miami_-_Jazz_FM_Music_News_1920x1080.png.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/One_Night_in_Miami_-_Jazz_FM_Music_News_1920x1080.png.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/One_night_in_Miami.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/One_night_in_Miami.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Parkerjpg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Parkerjpg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Phylida_floyd_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Phylida_floyd_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Pierce_Brosnar_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Pierce_Brosnar_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Poster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Poster.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Pretty_Woman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Pretty_Woman.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Roberts_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Roberts_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Robinson_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Robinson_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/STRAIT_STORY.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/STRAIT_STORY.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Sakellarios.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Sakellarios.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Seyfried_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Seyfried_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Sharon_Maguire.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Sharon_Maguire.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/The_Auntie_from_Chicago.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/The_Auntie_from_Chicago.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/The_Countess_of_Corfu_film_poster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/The_Countess_of_Corfu_film_poster.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Theron.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Theron.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Tom_Hardy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Tom_Hardy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Ulfsak.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Ulfsak.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Unknown.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Unknown.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/VLADIMIROS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/VLADIMIROS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Venom-1-1024x756.png.webp" beforeDir="false" afterPath="$PROJECT_DIR$/media/Venom-1-1024x756.png.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Venom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Venom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Wiki_cinema_diefthintis.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Wiki_cinema_diefthintis.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Williams.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Williams.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Zellweger_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Zellweger_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/bridget-z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/bridget-z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/child-44-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/child-44-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/hqdefault-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/hqdefault-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/i-theia-ap-to-sikago4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/i-theia-ap-to-sikago4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/nisos-2-poster-l.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/nisos-2-poster-l.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/richard-gere-julia-roberts-pretty-woman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/richard-gere-julia-roberts-pretty-woman.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/streep_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/streep_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/telnet.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/telnet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/tenet_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tenet_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/the-iron-lady-poster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/the-iron-lady-poster.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/the-straight-story.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/the-straight-story.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/unnamed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/unnamed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/unnamed_208w4Wm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/unnamed_208w4Wm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Δωμάτιο_1408.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Δωμάτιο_1408.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Η_Κυρά_μας_η_Μαμή.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Η_Κυρά_μας_η_Μαμή.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Η_Κόμισσα_της_Κέρκυρας.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Η_Κόμισσα_της_Κέρκυρας.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Η_σιδηρά_κυρία.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Η_σιδηρά_κυρία.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Λατέρναφτώχεια_και_φιλότιμο.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Λατέρναφτώχεια_και_φιλότιμο.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/ΝΗΣΟΣ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/ΝΗΣΟΣ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Ο_Παπαφλέσσας.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Ο_Παπαφλέσσας.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Ο_σκοτεινός_ιππότης-Η_επιστροφή.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Ο_σκοτεινός_ιππότης-Η_επιστροφή.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Το_κινητό.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/Το_κινητό.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/media/Το_μωρό_της_Μπρίτζετ_Τζόουνς.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/Το_μωρό_της_Μπρίτζετ_Τζόουνς.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/mainView.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/mainView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesite/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesite/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesite/wsgi.py" beforeDir="false" />
     </list>
+    <ignored path="C:\Users\middleware\PycharmProjects\moviebest\.idea\shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +129,80 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/templates/movies/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="99" column="53" lean-forward="true" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moviebest/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="133" column="22" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movies/templates/movies/contact.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/templates/movies/detail.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/templates/movies/register.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/templates/movies/aboutus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adv_search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/templates/movies/adv_search.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies/templates/movies/search.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,24 +295,6 @@
               <item name="moviebest" type="b2602c69:ProjectViewProjectNode" />
               <item name="moviebest" type="462c0819:PsiDirectoryNode" />
               <item name="movies" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moviebest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moviebest" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moviebest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moviebest" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moviebest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moviebest" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -158,7 +329,7 @@
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
@@ -175,7 +346,19 @@
       <recent name="$PROJECT_DIR$/movieSite" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.moviebest">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.moviebest">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="moviebest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,9 +377,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="moviebest" />
@@ -216,9 +396,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="moviebest" />
@@ -238,9 +415,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="moviebest" />
@@ -260,9 +434,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
       <module name="moviebest" />
@@ -278,7 +449,6 @@
       <option name="host" value="127.0.0.1" />
       <option name="browserUrl" value="" />
       <option name="additionalOptions" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="moviebest" type="Python.DjangoServer" factoryName="Django server">
       <module name="moviebest" />
@@ -288,7 +458,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="moviebest.settings" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="SDK_HOME" value="C:\Users\middleware\AppData\Local\Programs\Python\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -302,24 +472,21 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
-      <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.grunt">
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
       <node-interpreter value="project" />
       <envs />
-      <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
-      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.moviebest" />
+      <item itemvalue="Django server.moviebest" />
       <item itemvalue="Python.settings" />
       <item itemvalue="Python.urls" />
       <item itemvalue="Python.wsgi" />
@@ -332,7 +499,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -468,11 +635,11 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50125" side_tool="true" visible="true" weight="0.3285528" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.29461458" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.29335073" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285528" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49875" visible="true" weight="0.3285528" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.178125" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -492,19 +659,28 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bug fixes&#10;Django==2.2" />
@@ -525,9 +701,6 @@
     <SUITE FILE_PATH="coverage/moviebest$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1609868482348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movies/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/movies/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -542,42 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movies/templates/movies/home.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movies/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="110" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movies/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movies/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moviebest/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moviebest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,9 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,9 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,9 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,9 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,13 +833,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movies/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movies/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="110" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/movies/templates/movies/home.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -743,13 +858,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/moviebest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/movies/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -761,9 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,7 +884,15 @@
     <entry file="file://$PROJECT_DIR$/movies/static/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/movies/templates/movies/register.html">
+    <entry file="file://$PROJECT_DIR$/moviesite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/movies/media/A_Beautiful_Mind.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/templates/movies/contactMessage.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/movies/templates/movies/login.html">
@@ -786,54 +900,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movies/templates/movies/mainView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="1258">
           <caret line="74" selection-start-line="74" selection-end-line="74" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movies/templates/movies/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="79" column="52" lean-forward="true" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/movies/templates/movies/search_2.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/moviebest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/movies/templates/movies/search.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/movies/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/movies/templates/movies/register.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/movies/templates/movies/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/templates/movies/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moviebest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="133" column="22" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/templates/movies/detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/templates/movies/adv_search.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="99" column="53" lean-forward="true" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/movies/templates/movies/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#103#131#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
