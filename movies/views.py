@@ -116,3 +116,8 @@ def search(request, movie_id):
 def search_2(request, movie_id):
     get_movie = models.Movie.objects.filter(genre__genre_description=movie_id)
     return render(request, 'movies/search_2.html', {'home_movie': get_movie.all()})
+
+@login_required(login_url='login')
+def director(request, movie_id):
+    get_movie = models.Movie.objects.filter(director__director_lastName=movie_id)
+    return render(request, 'movies/director.html', {'home_movie': get_movie})

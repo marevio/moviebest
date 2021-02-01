@@ -2,37 +2,7 @@
 {% load static %}
 
 {% block content %}
-<body>
-    <h1 class="text-white-50" style="margin-left: 20px; margin-bottom: 10px;"> {{ home_movie.title }}</h1>
-    <h1 class="text-white-50" style="margin-left: 20px;">Info</h1>
-    <section class="bg-transparent">
-        <div class="container-fluid">
-            <div class="row" style="margin-left: 20px;">
-                <div class="col-sd-12">
-                    <img src="{{ home_movie.image.url }}" width="400" style="float: right; padding: 20px;" >
-                    <h5 class="text-white-50" style="padding-top: 20px;padding-left: 15px;padding-right: 15px;">Plot :</h5>
-                    <hr>
-                    <p class="text-white-50"  style="padding-left: 15px;padding-right: 15px;">{{ home_movie.plot }}</p>
-                    <h5 class="text-white-50" style="padding-top: 20px;padding-left: 15px;padding-right: 15px;">Critics :</h5>
-                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;"> {{ home_movie.critics }}</p>
-                    <h5 class="text-white-50" style="padding-top: 20px;padding-left: 15px;padding-right: 15px;">More :</h5>
-                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Total Views : {{ home_movie.views }} </p>
-                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Company : {{ home_movie.company }} </p>
-                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Director : {{ home_movie.director }} </p>
-                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Category : {{ home_movie.genre.genre_description }} </p>
-                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Actors : {{ home_movie.get_actors_str }} </p>
-                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Premier : {{ home_movie.premiere_date }}, Duration : {{ home_movie.duration }} Λεπτά </p>
-                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Language : {{ home_movie.language }} </p>
-                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">IMDB rate: {{ home_movie.imdb_rate }} </p>
-                    <a class="btn-link" style="padding-left: 15px;padding-right: 15px;" href="{{ home_movie.url_imbd }}"> IMDB Link </a>
-                    <div style="text-align:center"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script src="{%  static 'js/jquery.min.js'%}"></script>
-    <script src="{%  static 'js/bootstrap.min.js'%}"></script>
-</body>
 
+    <h1>{{ home_movie.values }}</h1>
 
 {% endblock content %}

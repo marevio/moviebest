@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06426d28-66b0-4cbb-9190-4e76e61a9ed7" name="Default" comment="simple search added">
-      <change afterPath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/img/mysite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/movies/director.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Django_server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Django_server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/migrations/0009_auto_20210201_2257.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/moviebest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/moviebest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/img/architect-at-the-construction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/img/architects-and-worker.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/img/young-college-students.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviebest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/director.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/director.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +31,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Setup Script" />
         <option value="JavaScript File" />
         <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Setup Script" />
       </list>
     </option>
   </component>
@@ -166,10 +164,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/movies/static/bootstrap/js" />
+      <recent name="$PROJECT_DIR$/movies/static/bootstrap" />
       <recent name="$PROJECT_DIR$/movies/static/img" />
       <recent name="$PROJECT_DIR$/movies/movies" />
       <recent name="$PROJECT_DIR$/movies" />
-      <recent name="$PROJECT_DIR$/movies/templates/movies" />
     </key>
   </component>
   <component name="RunManager" selected="Django Server.moviebest">
@@ -180,9 +178,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../pythonProject/venv/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -195,16 +193,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="moviebest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../pythonProject/venv/bin/python" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moviesite" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -224,9 +222,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../pythonProject/venv/bin/python" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moviesite" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -246,9 +244,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../pythonProject/venv/bin/python" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moviesite" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -324,7 +322,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.wsgi" />
-        <item itemvalue="Python.settings" />
         <item itemvalue="Python.urls" />
       </list>
     </recent_temporary>
@@ -359,6 +356,16 @@
       <workItem from="1612025212177" duration="31375000" />
       <workItem from="1612128988634" duration="2525000" />
       <workItem from="1612200044263" duration="5179000" />
+      <workItem from="1612208418101" duration="1815000" />
+      <workItem from="1612210421842" duration="30000" />
+      <workItem from="1612210463577" duration="129000" />
+      <workItem from="1612210594973" duration="268000" />
+      <workItem from="1612210869519" duration="21000" />
+      <workItem from="1612211670860" duration="508000" />
+      <workItem from="1612212193347" duration="18000" />
+      <workItem from="1612212296309" duration="3469000" />
+      <workItem from="1612215960173" duration="20000" />
+      <workItem from="1612216315279" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>
@@ -503,9 +510,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bug fixes&#10;Django==2.2" />

@@ -19,7 +19,7 @@
                     <h5 class="text-white-50" style="padding-top: 20px;padding-left: 15px;padding-right: 15px;">More :</h5>
                     <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Total Views : {{ home_movie.views }} </p>
                     <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Company : {{ home_movie.company }} </p>
-                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Director : {{ home_movie.director }} </p>
+                    <a class="btn-link" style="padding-left: 15px;padding-right: 15px;" href="{% url 'director'  'home_movie.director.director_lastName' %}">Director : {{ home_movie.director }}</a>
                     <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Category : {{ home_movie.genre.genre_description }} </p>
                     <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Actors : {{ home_movie.get_actors_str }} </p>
                     <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Premier : {{ home_movie.premiere_date }}, Duration : {{ home_movie.duration }} Λεπτά </p>
@@ -32,6 +32,7 @@
         </div>
     </section>
     <script src="{%  static 'js/jquery.min.js'%}"></script>
+    <script src="{%  static 'bootstrap/js/bootstrap.min.js'%}"></script>
 </body>
 
 
