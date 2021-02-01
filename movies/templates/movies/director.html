@@ -4,7 +4,6 @@
 {% block content %}
 <body>
     <h1 class="text-white-50" style="margin-left: 20px; margin-bottom: 10px;"> {{ home_movie.title }}</h1>
-    <div class="video-container" style="margin-left: 20px;"><iframe allowfullscreen="" frameborder="0" src="{{ home_movie.trailer }}" width="853" height="480"></iframe></div>
     <h1 class="text-white-50" style="margin-left: 20px;">Info</h1>
     <section class="bg-transparent">
         <div class="container-fluid">
@@ -32,6 +31,7 @@
         </div>
     </section>
     <script src="{%  static 'js/jquery.min.js'%}"></script>
+    <script src="{%  static 'js/bootstrap.min.js'%}"></script>
 </body>
 
 
