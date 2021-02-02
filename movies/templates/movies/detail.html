@@ -20,6 +20,7 @@
                     <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Total Views : {{ home_movie.views }} </p>
                     <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Company : {{ home_movie.company }} </p>
                     <a class="btn-link" style="padding-left: 15px;padding-right: 15px;" href="{% url 'director' home_movie.director.director_lastName %}">Director : {{ home_movie.director }}</a>
+                    <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Actors : {{ home_movie.get_actors_str }} </p>
                     <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Category : {{ home_movie.genre.genre_description }} </p>
                     <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Premier : {{ home_movie.premiere_date }}, Duration : {{ home_movie.duration }} Λεπτά </p>
                     <p class="text-white-50" style="padding-left: 15px;padding-right: 15px;">Language : {{ home_movie.language }} </p>
