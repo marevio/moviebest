@@ -114,5 +114,5 @@ def search_2(request, movie_id):
 
 @login_required(login_url='login')
 def director(request, movie_id):
-    get_movie = models.Movie.objects.filter(director__director_lastName=movie_id)
+    get_movie = models.Movie.objects.filter(director__director_lastName__contains=movie_id).distinct()
     return render(request, 'movies/director.html', {'home_movie': get_movie})
