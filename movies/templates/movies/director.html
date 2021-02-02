@@ -3,9 +3,8 @@
 
 {% block content %}
 
-
     <body>
-    {% for my_home_movie in home_movie %}
+    {% for my_home_movie in home_movie|slice:":1" %}
         <h1 class="text-white-50" style="margin-left: 20px; margin-bottom: 10px;"> {{ my_home_movie.director.director_firstName }}</h1>
         <h1 class="text-white-50" style="margin-left: 20px; margin-bottom: 10px;"> {{ my_home_movie.director.director_lastName }}</h1>
         <h1 class="text-white-50" style="margin-left: 20px;"></h1>
