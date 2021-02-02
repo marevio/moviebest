@@ -85,15 +85,13 @@ def logoutUser(request):
 #movies
 def adv_Search(request):
     txt = request.GET.get('txt', '')
-    #posts = models.Movie.objects.filter(plot__contains=txt)
-    posts = models.Movie.objects.filter(Q(title__contains=txt) | Q(plot__contains=txt) | Q(actors__actor_lastName__contains=txt) | Q(director__director_lastName__contains=txt))
 
-    if txt is False:
-        if txt == '':
-            posts = models.Movie.objects.all()
-        else:
-            posts = Movie.objects.all()
-            #posts = Movie.objects.filter(Q(title__contains=txt) | Q(plot__contains=txt) | Q(actors__actor_lastName__contains=txt) | Q(director__director_lastName__contains=txt)).get()
+    if txt != '':
+        #posts = models.Movie.objects.filter(plot__contains=txt)
+        posts = models.Movie.objects.filter(Q(title__contains=txt) | Q(plot__contains=txt) | Q(actors__actor_lastName__contains=txt) | Q(director__director_lastName__contains=txt)).distinct()
+    else:
+        posts = models.Movie.objects.all()
+
     return render(request, 'movies/adv_search.html', {'movies': posts})
 
 #movie detail

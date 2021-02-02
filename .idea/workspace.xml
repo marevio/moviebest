@@ -352,7 +352,7 @@
       <workItem from="1612212296309" duration="3469000" />
       <workItem from="1612215960173" duration="20000" />
       <workItem from="1612216315279" duration="418000" />
-      <workItem from="1612263601208" duration="4819000" />
+      <workItem from="1612263601208" duration="5609000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>
@@ -459,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612270238968</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="working with search">
+      <created>1612275990766</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612275990766</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
