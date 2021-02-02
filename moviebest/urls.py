@@ -16,7 +16,8 @@ urlpatterns = [
     path('search/<movie_id>', views.search, name='search'),
     path('search_2/<movie_id>', views.search_2, name='search_2'),
     path('director/<movie_id>', views.director, name='director'),
-    path('adv_search/', views.advSearch, name='adv_search')
+    path('adv_search/', views.adv_Search, name='adv_search')
+    #path('adv_search/', views.adv_Search, name='adv_search')
 ]
 
 if settings.DEBUG:

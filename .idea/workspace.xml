@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06426d28-66b0-4cbb-9190-4e76e61a9ed7" name="Default" comment="simple search added">
+      <change afterPath="$PROJECT_DIR$/movies/migrations/0010_auto_20210202_1435.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Django_server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Django_server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_1_21__8_24_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_1_21__8_24_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviebest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/adv_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/adv_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
     </list>
-    <ignored path="C:\Users\HP\PycharmProjects\moviebest\.idea\shelf/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,19 +162,7 @@
       <recent name="$PROJECT_DIR$/movies" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Django server.moviebest">
+  <component name="RunManager" selected="Django Server.moviebest">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="moviebest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +181,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="moviebest" />
@@ -211,6 +203,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="moviebest" />
@@ -230,6 +225,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="moviebest" />
@@ -249,6 +247,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
       <module name="moviebest" />
@@ -264,6 +265,7 @@
       <option name="host" value="127.0.0.1" />
       <option name="browserUrl" value="" />
       <option name="additionalOptions" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="moviebest" type="Python.DjangoServer" factoryName="Django server">
       <module name="moviebest" />
@@ -273,7 +275,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="moviebest.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\HP\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -287,21 +289,24 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+    <configuration default="true" type="js.build_tools.grunt">
       <node-interpreter value="project" />
       <envs />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django server.moviebest" />
+      <item itemvalue="Django Server.moviebest" />
       <item itemvalue="Python.settings" />
       <item itemvalue="Python.urls" />
       <item itemvalue="Python.wsgi" />
@@ -353,6 +358,7 @@
       <workItem from="1612212296309" duration="3469000" />
       <workItem from="1612215960173" duration="20000" />
       <workItem from="1612216315279" duration="418000" />
+      <workItem from="1612263601208" duration="3825000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>
@@ -483,25 +489,19 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />

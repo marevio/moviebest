@@ -8,7 +8,7 @@ from .models import Movie, Contact
 from movies import models
 from django.contrib.auth.decorators import login_required
 from .Register_form import Register_form
-
+from django.db.models import Q
 # Create your views here.
 
 
@@ -83,21 +83,15 @@ def logoutUser(request):
     return redirect('home')
 
 #movies
-def advSearch(request):
-    cat=request.GET.get('cat','')
-    txt=request.GET.get('txt','')
-    try:
-        cat=int(cat)
-    except:
-        cat=False
-    if cat is False:
+def adv_Search(request):
+    txt = request.GET.get('txt', '')
+
+    if txt is False:
         if txt == '':
-            posts = Movie.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+            posts = Movie.objects.order_by('created_at').all()
         else:
-            posts = Movie.objects.filter(published_date__lte=timezone.now()).filter(text__contains=txt).order_by('published_date')
-    else:
-        posts = Movie.objects.filter(published_date__lte=timezone.now()).filter(category=cat).order_by('published_date')
-    return render(request, 'movies/movie_list.html', {'movies': posts}, {'moviesCreated': posts.order_by('created_at')})
+            posts = Movie.objects.filter(Q(title__contains=txt) | Q(plot__contains=txt) | Q(actors__actor_lastName__contains=txt) | Q(director__director_lastName__contains=txt)).get()
+    return render(request, 'movies/adv_search.html', {'movies': posts})
 
 #movie detail
 @login_required(login_url='login')
