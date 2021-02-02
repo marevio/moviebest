@@ -2,7 +2,10 @@
 {% load static %}
 
 {% block content %}
+{% for movie in movies %}
+<h1> {{ movie.title }} </h1>
+{% endfor %}
 
-    <h1>  </h1>
+
 
 {% endblock content %}
