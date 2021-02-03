@@ -51,7 +51,7 @@
                             </li>
                             <li class="nav-item"></li>
                         </ul>
-                        <form class="form-inline ml-auto" type="get" action="adv_search">
+                        <form class="form-inline ml-auto" type="get" action="/adv_search">
                             <div class="form-group"><label for="search-field"><i class="fa fa-search" ></i></label><input class="form-control search-field" type="text" name="txt"></div></form>
                             {% if request.user.is_authenticated %}
                                 <span class="navbar-text"><a class="login" href="#">Hello, {{request.user.username}}</a></span><a class="btn btn-light action-button" onclick="location.href='/logout'" role="button" href="#">Sign Out</a>
