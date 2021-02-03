@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06426d28-66b0-4cbb-9190-4e76e61a9ed7" name="Default" comment="Director more bug fixed !!!">
+    <list default="true" id="06426d28-66b0-4cbb-9190-4e76e61a9ed7" name="Default" comment="bug fixed !!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/templates/movies/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviebest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviebest/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +354,8 @@
       <workItem from="1612263601208" duration="14157000" />
       <workItem from="1612286435006" duration="186000" />
       <workItem from="1612291793642" duration="202000" />
-      <workItem from="1612366530857" duration="658000" />
+      <workItem from="1612366530857" duration="698000" />
+      <workItem from="1612367380975" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="bug fixes&#10;Django==2.2">
       <created>1609871178319</created>
@@ -497,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612285832915</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="bug fixed !!!">
+      <created>1612367349331</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1612367349331</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -557,7 +564,8 @@
     <MESSAGE value="Director done !!!!" />
     <MESSAGE value="Director bug fixed !!!" />
     <MESSAGE value="Director more bug fixed !!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Director more bug fixed !!!" />
+    <MESSAGE value="bug fixed !!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixed !!!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/moviebest$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1610921580107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moviesite" />
